@@ -1,8 +1,18 @@
+from site import Site
 
-inverters = []
+class System():
+    def __init__(self):
+        self.site = Site()
 
-i_stc = 1000
+    def viable_inverters(self):
 
-for inverter in inverters:
-    for module in modules:
-        power_required = 
+        return 0
+
+    def viable_modules(self):
+
+        return 0
+
+    def decision_making(self):
+        for inverter in self.viable_inverters():
+            for module in self.viable_modules():
+                return 1
