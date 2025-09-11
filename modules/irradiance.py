@@ -1,6 +1,3 @@
-def compute_irradiace(site):
-    return 'WIP'
-
 def estimate_cell_temperature(tmed_amb, tnm, trmtabs, ef, irr, wind_speed):
     # Constants
     irr_noct = 800

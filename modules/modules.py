@@ -35,9 +35,10 @@ class Module:
         self.isc_corr = None            # Corrected Short-Circuit Current (Isc)
         self.pmp_corr = None            # Corrected Maximum Power (Pmp)
         
-        # Corrected Nominal Operating Cell Temperature for the Months
+        # Corrected Average Nominal Operating Cell Temperature
         self.tnm_corr = estimate_cell_temperature(site.tmed_amb, self.tnm, 0.95, self.ef, site.irrmed, site.wind_speed)
     
+    # Correction of the tensions by the cell temperature
     def correct_voc_vmp_by_temp(self):
         # Constants
         t_stc = 25
@@ -47,6 +48,7 @@ class Module:
         
         return self.voc_corr, self.vmp_corr
     
+    # Correction of the IMP, ISC and PMP by irradiance
     def correct_imp_isc_pmp_by_irr(self, site):
         # Constants 
         g_stc = 1000
@@ -55,6 +57,7 @@ class Module:
         self.isc_corr = self.isc * (site.irrmed / g_stc)
         self.pmp_corr = self.pmp * (site.irrmed / g_stc)
 
+    # Correction of the IMP, ISC and PMP by shading factor
     def correct_imp_isc_pmp_by_shading(self, site):
         # Constants 
         k = 1.5     # Non-linear factor
@@ -63,16 +66,8 @@ class Module:
         self.isc_corr = self.isc_corr * (1 - site.shading_factor)**k
         self.pmp_corr = self.pmp_corr * (1 - site.shading_factor)**k
     
-    # Liable of correction to implement Voc and Isc
-    def modules_in_string_and_mppt(self, inverter):
-        # Calculate number of modules in a string (series)
-        n_string = int(inverter.vmp / self.vmp_corr)
-        # Calculate number of parallel strings per MPPT
-        n_mppt = int(inverter.imp / self.imp_corr)
-        
-        return n_string, n_mppt
-
+    # Calculate the performance index of the module
     def module_perfomance_index(self):
-        self.ipvn = (self.pmp * self.ef) / (self.area * self.icost)
+        self.ipvn = (self.tcoef_voc * self.tcoef_vmp) / (self.dur * self.ef * self.tol)
         
         return self.ipvn
