@@ -65,7 +65,13 @@ class Module:
         self.imp_corr = self.imp_corr * (1 - site.shading_factor)**k
         self.isc_corr = self.isc_corr * (1 - site.shading_factor)**k
         self.pmp_corr = self.pmp_corr * (1 - site.shading_factor)**k
-    
+
+    # Calculate the number of modules needed
+    def number_modules(self, power_required):
+        self.nmod = power_required / self.pmp_corr
+
+        return self.nmod
+
     # Calculate the performance index of the module
     def module_perfomance_index(self):
         self.ipvn = (self.tcoef_voc * self.tcoef_vmp) / (self.dur * self.ef * self.tol)
