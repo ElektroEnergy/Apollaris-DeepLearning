@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "inverters": [
+        {
+            "id": 1,
+            "name": "Inverter 1",
+            "brand_id": 1,
+            "pdc": 5000,
+            "nmmpts": 2,
+            "pmp": 2500,
+            "vmp": 600,
+            "imp": 10,
+            "voc": 700,
+            "isc": 12,
+            "ef": 0.98,
+            "icost": 0.25
+        }
+    ]
+}

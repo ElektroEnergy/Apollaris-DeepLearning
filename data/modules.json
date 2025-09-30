@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "modules": [
+        {
+            "id": 1,
+            "name": "Module 1",
+            "brand_id": 1,
+            "voc": 0.0,
+            "isc": 0.0,
+            "vmp": 0.0,
+            "imp": 0.0,
+            "pmp": 0.0,
+            "vmax_sys": 0.0,
+            "tcoef_voc": 0.0,
+            "tcoef_vmp": 0.0,
+            "tcoef_isc": 0.0,
+            "weight": 0.0,
+            "depth": 0.0,
+            "width": 0.0,
+            "length": 0.0,
+            "area": 0.0,
+            "icost": 0.0,
+            "ef": 0.0,
+            "ncel": 0,
+            "tol": 0.0,
+            "dur": 0,
+            "material": 0,
+            "tmax": 0.0,
+            "tmin": 0.0,
+            "tnm": 0.0,
+            "tier": "",
+            "max_fuse": 0.0
+        }
+    ]
+}
