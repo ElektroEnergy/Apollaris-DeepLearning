@@ -5,8 +5,8 @@ from modules import Module
 import json
 
 class System():
-    def __init__(self):
-        self.site = Site()
+    def __init__(self, site):
+        self.site = site
         self.inverters = json.load(open('data/inverters.json')).inverters
         self.modules = json.load(open('data/modules.json')).modules
 
@@ -39,15 +39,15 @@ class System():
                 PVModule.number_modules(power_required)
 
                 # Calculate the strings
-                max_strings = PVInverter.max_strings_per_mppt(Module)
-                modules_per_string = PVInverter.modules_per_string(Module)
+                max_strings = PVInverter.max_strings_per_mppt(PVModule)
+                modules_per_string = PVInverter.modules_per_string(PVModule)
 
                 # Calculate the performance index of the module
                 module_perfomance_index = PVModule.module_perfomance_index()
                 total_module_perfomance_index = module_perfomance_index * PVModule.nmod
 
                 # Calculate the performance index of the inverter
-                inverter_perfomance_index = PVInverter.inverter_perfomance_index(Module)
+                inverter_perfomance_index = PVInverter.inverter_perfomance_index(PVModule)
                 total_inverter_perfomance_index = inverter_perfomance_index * PVInverter.ninv
 
                 # Calculate the total index of the system
@@ -57,15 +57,16 @@ class System():
                 combination = {
                     'module': module['id'],
                     'inverter': inverter['id'],
+                    'power_required': power_required,
                     'nmod': PVModule.nmod,
                     'ninv': PVInverter.ninv,
                     'modules_per_string': modules_per_string,
                     'max_strings': max_strings,
-                    'total_module_perfomance_index': total_module_perfomance_index,
-                    'total_inverter_perfomance_index': total_inverter_perfomance_index,
-                    'system_perfomance_index': system_perfomance_index
+                    'total_ipmd': total_module_perfomance_index,
+                    'total_ipinv': total_inverter_perfomance_index,
+                    'ipsys': system_perfomance_index
                 }
                 combinations.append(combination)
 
         # Return the best combination
-        return max(combinations, key=lambda x: x['system_perfomance_index'])    
+        return max(combinations, key=lambda x: x['system_perfomance_index'])
