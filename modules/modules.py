@@ -1,4 +1,5 @@
-from irradiance import estimate_cell_temperature
+from modules.irradiance import estimate_cell_temperature
+from modules.site import Site
 
 class Module:
     def __init__(self, voc, isc, vmp, imp, pmp, vmax_sys, tcoef_voc, tcoef_vmp, tcoef_isc, weight, depth, width, length, area, icost, ef, ncel, tol, dur, material, tmax, tmin, tnm, tier, max_fuse, site):
@@ -39,7 +40,7 @@ class Module:
         self.tnm_corr = estimate_cell_temperature(site.tmed_amb, self.tnm, 0.95, self.ef, site.irrmed, site.wind_speed)
     
     # Correction of the tensions by the cell temperature
-    def correct_voc_vmp_by_temp(self):
+    def correct_voc_vmp_by_temp(self, site):
         # Constants
         t_stc = 25
     
@@ -68,12 +69,12 @@ class Module:
 
     # Calculate the number of modules needed
     def number_modules(self, power_required):
-        self.nmod = power_required / self.pmp_corr
+        self.nmod = power_required // self.pmp_corr
 
         return self.nmod
 
     # Calculate the performance index of the module
     def module_perfomance_index(self):
-        self.ipvn = (self.tcoef_voc * self.tcoef_vmp) / (self.dur * self.ef * self.tol)
+        self.ipvn = (self.tcoef_voc * self.tcoef_vmp) / (self.dur * (self.ef / 100) * self.tol)
         
         return self.ipvn

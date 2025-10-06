@@ -1,20 +1,17 @@
 import numpy as np
 
 # Random demand generator
-def demand_generator():
-    rng = np.random.default_rng()
-    
-    radical = rng.integers(0, 10)
-    multiplier = rng.integers(3, 7)   
-    demand = radical * (10 ** multiplier)
-    
+def demand_generator(low=1200, high=150000):
+    # Generate one number, rounded to the nearest 100
+    demand = np.random.randint(low // 100, high // 100 + 1) * 100
+
     return demand
 
 # Random irradiance generator
 def irradiance_generator():
     rng = np.random.default_rng()
     
-    irradiance = rng.uniform(100, 1000)
+    irradiance = rng.uniform(600, 1500)
     
     return irradiance
 
@@ -22,7 +19,7 @@ def irradiance_generator():
 def temperature_generator():
     rng = np.random.default_rng()
     
-    temperature = rng.uniform(-10, 40)
+    temperature = rng.uniform(20, 45)
     
     return temperature
 
@@ -30,6 +27,6 @@ def temperature_generator():
 def wind_speed_generator():
     rng = np.random.default_rng()
     
-    wind_speed = rng.uniform(0, 25)
+    wind_speed = rng.uniform(1, 25)
     
     return wind_speed

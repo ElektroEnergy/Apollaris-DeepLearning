@@ -1,23 +1,25 @@
+from colorama import init, Fore, Back, Style
+
+init()
+
 class Console():
 
     @staticmethod
-    def header():
-        print("")
-        print("                         Elektro")
-        print("   _____                .__  .__               .__        ")
-        print("  /  _  \ ______   ____ |  | |  | _____ _______|__| ______")
-        print(" /  /_\  \\____ \ /  _ \|  | |  | \__  \\_  __ \  |/  ___/")
-        print("/    |    \  |_> >  <_> )  |_|  |__/ __ \|  | \/  |\___ \ ")
-        print("\____|__  /   __/ \____/|____/____(____  /__|  |__/____  >")
-        print("        \/|__|                         \/              \/ ")
-        print("        Trainer for Apollaris Deep Learning Model")
-        print("             Developed by Nicolas Fernandes")
-        print("")
+    def send_error(message):
+        print(Back.RED + Style.BRIGHT + 'ERROR' + Style.RESET_ALL + ' ' + message)
 
+    @staticmethod
+    def send_info(message):
+        print(Back.MAGENTA + Style.BRIGHT + 'INFO' + Style.RESET_ALL + ' ' + message)
 
-    def user_parameters(self):
-        self.header()
-        print("Select the mode:")
-        print("(1) Generate combinations for multiple random systems")
-        print("(2) Evaluate a specific system configuration for research")
-        mode = input("Mode: ")
+    @staticmethod
+    def send_warn(message):
+        print(Back.YELLOW + Style.BRIGHT + 'WARN' + Style.RESET_ALL + ' ' + message)
+
+    @staticmethod
+    def send_success(message):
+        print(Back.GREEN + Style.BRIGHT + 'SUCCESS' + Style.RESET_ALL + ' ' + message)
+
+    @staticmethod
+    def send_debug(message):
+        print(Back.BLUE + Style.BRIGHT + 'DEBUG' + Style.RESET_ALL + ' ' + message)
