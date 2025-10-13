@@ -3,6 +3,14 @@ from colorama import init, Fore, Back, Style
 init()
 
 class Console():
+    
+    @staticmethod
+    def send_header(title):
+        print('')
+        print(Back.CYAN + Style.BRIGHT + 'ELEKTRO APOLLARIS')
+        print(Style.RESET_ALL + 'Deep Learning | ' + title)
+        print(Style.DIM + 'Developed by Nicolas Fernandes' + Style.RESET_ALL)
+        print('')
 
     @staticmethod
     def send_error(message):

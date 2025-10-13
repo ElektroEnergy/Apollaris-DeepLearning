@@ -97,6 +97,21 @@ class System():
                 }
         else:
             return max(combinations, key=lambda x: x['ipsys'])
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
         
 # Message from author Nicolas Fernandes
 # I dedicate this code for Ana Sophia Dutra, I love you honey 💗
