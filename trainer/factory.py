@@ -41,5 +41,5 @@ def factory(seeds, size):
     return selections    
 
 # Debug
-factory(seeds(100), 100)
+# factory(seeds(100), 100)
     

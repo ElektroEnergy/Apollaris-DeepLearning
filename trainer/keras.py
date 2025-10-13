@@ -1,7 +1,11 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+os.environ['TF_USE_LEGACY_KERAS'] = '1'
+
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.preprocessing import MinMaxScaler, StandardScaler, LabelEncoder
 import tensorflow as tf
-from tensorflow.keras import layers, Model, Input
+from tf_keras import layers, Model, Input
 import numpy as np
 import joblib
 
@@ -9,12 +13,18 @@ from trainer.factory import factory
 from trainer.factory import seeds
 from utils.io import Console
 
+# Disable annoying Tensorflow warnings in a production env
+tf.get_logger().setLevel('ERROR')
+
+# Send header
+Console.send_header("Trainer")
+
 # Generation of data to training
 Console.send_info('Begin generating the data. This can take a while depending on your computer and the size of the seeds, go get some coffee for you.')
-x_values = np.array(seeds(4000))
+x_values = np.array(seeds(3000))
 X = np.column_stack([x_values[:, 0], x_values[:, 1], x_values[:, 2], x_values[:, 3]])
 
-y_values = np.array(factory(x_values, 4000))
+y_values = np.array(factory(x_values, 3000))
 y_module = y_values[:, 0]
 y_inverter = y_values[:, 1]
 y_power = y_values[:, 2]
@@ -38,13 +48,15 @@ joblib.dump(encoder_inverter, 'encoder_inverter.pkl')
 # Normalization of X
 scaler_x = StandardScaler()
 X = scaler_x.fit_transform(X)
+
+# Save X encoder
 joblib.dump(scaler_x, 'scaler_x.pkl')
 
 # Normalization of numerics Y
 scalers_y = {}
 def scale_target(name, arr):
     arr = arr.reshape(-1, 1)
-    scaler = StandardScaler()
+    scaler = MinMaxScaler()
     arr_scaled = scaler.fit_transform(arr)
     scalers_y[name] = scaler
     return arr_scaled
@@ -56,7 +68,9 @@ y_total_ipmd = scale_target("total_ipmd", y_total_ipmd)
 y_total_ipinv = scale_target("total_ipinv", y_total_ipinv)
 y_ipsys = scale_target("ipsys", y_ipsys)
 
+# Save Y scaler
 joblib.dump(scalers_y, 'scalers_y.pkl')
+
 Console.send_success('All scalers and encoders saved.')
 
 # Data splitting
@@ -82,12 +96,12 @@ x = layers.Dense(64, activation="relu")(x)
 
 out_module = layers.Dense(len(np.unique(y_module)), activation="softmax", name="module")(x)
 out_inverter = layers.Dense(len(np.unique(y_inverter)), activation="softmax", name="inverter")(x)
-out_power = layers.Dense(1, activation='linear', name="power")(x)
-out_nmod = layers.Dense(1, activation='linear', name="nmod")(x)
-out_ninv = layers.Dense(1, activation='linear', name="ninv")(x)
-out_total_ipmd = layers.Dense(1, activation='linear', name="total_ipmd")(x)
-out_total_ipinv = layers.Dense(1, activation='linear', name="total_ipinv")(x)
-out_ipsys = layers.Dense(1, activation='linear', name="ipsys")(x)
+out_power = layers.Dense(1, name="power")(x)
+out_nmod = layers.Dense(1, name="nmod")(x)
+out_ninv = layers.Dense(1, name="ninv")(x)
+out_total_ipmd = layers.Dense(1, name="total_ipmd")(x)
+out_total_ipinv = layers.Dense(1, name="total_ipinv")(x)
+out_ipsys = layers.Dense(1, name="ipsys")(x)
 
 model = Model(
     inputs=inputs,
@@ -110,7 +124,7 @@ model.compile(
     loss_weights={
         "module": 3.0,
         "inverter": 3.0,
-        "power": 1.0,
+        "power": 2.0,
         "nmod": 1.0,
         "ninv": 1.0,
         "total_ipmd": 1.0,
@@ -149,5 +163,11 @@ history = model.fit(
 )
 
 # Save
-model.save('decisionmaking.keras')
-Console.send_success('Model saved as decisionmaking.keras')
+model.save('decisionmaking.h5')
+
+np.object = object
+np.bool = bool
+import tensorflowjs as tfjs
+tfjs.converters.save_keras_model(model, "trainer/web_model")
+
+Console.send_success('Model saved as decisionmaking.h5')
