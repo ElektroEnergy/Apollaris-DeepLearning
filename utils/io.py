@@ -7,7 +7,7 @@ class Console():
     @staticmethod
     def send_header(title):
         print('')
-        print(Back.CYAN + Style.BRIGHT + 'ELEKTRO APOLLARIS')
+        print(Back.CYAN + Style.BRIGHT + 'ELEKTRO APOLLARIS' + Style.RESET_ALL)
         print(Style.RESET_ALL + 'Deep Learning | ' + title)
         print(Style.DIM + 'Developed by Nicolas Fernandes' + Style.RESET_ALL)
         print('')
