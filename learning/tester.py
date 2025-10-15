@@ -4,7 +4,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import numpy as np
 import math
 import tensorflow as tf
-from tensorflow import keras
+import tf_keras
 import joblib
 import json
 
@@ -19,13 +19,13 @@ Console.send_header("Prediction Maker")
 # Load model, scalers and encoders
 Console.send_info("Loading models, scalers and encoders...")
 
-model = keras.models.load_model('decisionmaking.keras')
+model = tf_keras.models.load_model('learning/output/decisionmaking.keras')
 
 # Load the scalers and encoders
-scaler_x = joblib.load('scaler_x.pkl')
-scaler_y = joblib.load('scalers_y.pkl')
-encoder_module = joblib.load('encoder_module.pkl')
-encoder_inverter = joblib.load('encoder_inverter.pkl')
+scaler_x = joblib.load('learning/output/scaler_x.pkl')
+scaler_y = joblib.load('learning/output/scalers_y.pkl')
+encoder_module = joblib.load('learning/output/encoder_module.pkl')
+encoder_inverter = joblib.load('learning/output/encoder_inverter.pkl')
 
 Console.send_success("Loaded with sucess! Now generating data for prediction")
 
