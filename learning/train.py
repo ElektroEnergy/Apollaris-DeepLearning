@@ -22,10 +22,10 @@ Console.send_header("Trainer")
 
 # Generation of data to training
 Console.send_info('Begin generating the data. This can take a while depending on your computer and the size of the seeds, go get some coffee for you.')
-x_values = np.array(seeds(3000))
+x_values = np.array(seeds(100000))
 X = np.column_stack([x_values[:, 0], x_values[:, 1], x_values[:, 2], x_values[:, 3]])
 
-y_values = np.array(factory(x_values, 3000))
+y_values = np.array(factory(x_values, 100000))
 y_module = y_values[:, 0]
 y_inverter = y_values[:, 1]
 y_power = y_values[:, 2]
@@ -159,7 +159,7 @@ history = model.fit(
         "ipsys": y_ipsys_train,
     },
     validation_split=0.2,
-    epochs=200,
+    epochs=500,
     batch_size=32,
 )
 

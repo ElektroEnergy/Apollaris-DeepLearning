@@ -18,124 +18,44 @@
         "documentation": {}
     },
     {
-        "label": "Site",
-        "importPath": "modules.site",
-        "description": "modules.site",
-        "isExtraImport": true,
-        "detail": "modules.site",
-        "documentation": {}
-    },
-    {
-        "label": "Site",
-        "importPath": "modules.site",
-        "description": "modules.site",
-        "isExtraImport": true,
-        "detail": "modules.site",
-        "documentation": {}
-    },
-    {
-        "label": "Site",
-        "importPath": "modules.site",
-        "description": "modules.site",
-        "isExtraImport": true,
-        "detail": "modules.site",
-        "documentation": {}
-    },
-    {
-        "label": "Inverter",
-        "importPath": "modules.inverters",
-        "description": "modules.inverters",
-        "isExtraImport": true,
-        "detail": "modules.inverters",
-        "documentation": {}
-    },
-    {
-        "label": "Module",
-        "importPath": "modules.modules",
-        "description": "modules.modules",
-        "isExtraImport": true,
-        "detail": "modules.modules",
-        "documentation": {}
-    },
-    {
-        "label": "Console",
-        "importPath": "utils.io",
-        "description": "utils.io",
-        "isExtraImport": true,
-        "detail": "utils.io",
-        "documentation": {}
-    },
-    {
-        "label": "Console",
-        "importPath": "utils.io",
-        "description": "utils.io",
-        "isExtraImport": true,
-        "detail": "utils.io",
-        "documentation": {}
-    },
-    {
-        "label": "Console",
-        "importPath": "utils.io",
-        "description": "utils.io",
-        "isExtraImport": true,
-        "detail": "utils.io",
-        "documentation": {}
-    },
-    {
-        "label": "Console",
-        "importPath": "utils.io",
-        "description": "utils.io",
-        "isExtraImport": true,
-        "detail": "utils.io",
-        "documentation": {}
-    },
-    {
-        "label": "math",
+        "label": "joblib,",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "math",
-        "description": "math",
-        "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "estimate_cell_temperature",
-        "importPath": "modules.irradiance",
-        "description": "modules.irradiance",
-        "isExtraImport": true,
-        "detail": "modules.irradiance",
+        "importPath": "joblib.",
+        "description": "joblib.",
+        "detail": "joblib.",
         "documentation": {}
     },
     {
         "label": "demand_generator",
-        "importPath": "trainer.generator",
-        "description": "trainer.generator",
+        "importPath": "learning.generator",
+        "description": "learning.generator",
         "isExtraImport": true,
-        "detail": "trainer.generator",
+        "detail": "learning.generator",
         "documentation": {}
     },
     {
         "label": "irradiance_generator",
-        "importPath": "trainer.generator",
-        "description": "trainer.generator",
+        "importPath": "learning.generator",
+        "description": "learning.generator",
         "isExtraImport": true,
-        "detail": "trainer.generator",
+        "detail": "learning.generator",
         "documentation": {}
     },
     {
         "label": "temperature_generator",
-        "importPath": "trainer.generator",
-        "description": "trainer.generator",
+        "importPath": "learning.generator",
+        "description": "learning.generator",
         "isExtraImport": true,
-        "detail": "trainer.generator",
+        "detail": "learning.generator",
         "documentation": {}
     },
     {
         "label": "wind_speed_generator",
-        "importPath": "trainer.generator",
-        "description": "trainer.generator",
+        "importPath": "learning.generator",
+        "description": "learning.generator",
         "isExtraImport": true,
-        "detail": "trainer.generator",
+        "detail": "learning.generator",
         "documentation": {}
     },
     {
@@ -144,6 +64,62 @@
         "description": "modules.decision",
         "isExtraImport": true,
         "detail": "modules.decision",
+        "documentation": {}
+    },
+    {
+        "label": "Site",
+        "importPath": "modules.site",
+        "description": "modules.site",
+        "isExtraImport": true,
+        "detail": "modules.site",
+        "documentation": {}
+    },
+    {
+        "label": "Site",
+        "importPath": "modules.site",
+        "description": "modules.site",
+        "isExtraImport": true,
+        "detail": "modules.site",
+        "documentation": {}
+    },
+    {
+        "label": "Site",
+        "importPath": "modules.site",
+        "description": "modules.site",
+        "isExtraImport": true,
+        "detail": "modules.site",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "utils.io",
+        "description": "utils.io",
+        "isExtraImport": true,
+        "detail": "utils.io",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "utils.io",
+        "description": "utils.io",
+        "isExtraImport": true,
+        "detail": "utils.io",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "utils.io",
+        "description": "utils.io",
+        "isExtraImport": true,
+        "detail": "utils.io",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "utils.io",
+        "description": "utils.io",
+        "isExtraImport": true,
+        "detail": "utils.io",
         "documentation": {}
     },
     {
@@ -165,27 +141,21 @@
         "documentation": {}
     },
     {
-        "label": "train_test_split",
-        "importPath": "sklearn.model_selection",
-        "description": "sklearn.model_selection",
+        "label": "os",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "sklearn.model_selection",
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
-        "label": "StandardScaler",
-        "importPath": "sklearn.preprocessing",
-        "description": "sklearn.preprocessing",
+        "label": "math",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "sklearn.preprocessing",
-        "documentation": {}
-    },
-    {
-        "label": "LabelEncoder",
-        "importPath": "sklearn.preprocessing",
-        "description": "sklearn.preprocessing",
-        "isExtraImport": true,
-        "detail": "sklearn.preprocessing",
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
         "documentation": {}
     },
     {
@@ -206,54 +176,6 @@
         "documentation": {}
     },
     {
-        "label": "keras",
-        "importPath": "tensorflow",
-        "description": "tensorflow",
-        "isExtraImport": true,
-        "detail": "tensorflow",
-        "documentation": {}
-    },
-    {
-        "label": "layers",
-        "importPath": "tensorflow.keras",
-        "description": "tensorflow.keras",
-        "isExtraImport": true,
-        "detail": "tensorflow.keras",
-        "documentation": {}
-    },
-    {
-        "label": "Model",
-        "importPath": "tensorflow.keras",
-        "description": "tensorflow.keras",
-        "isExtraImport": true,
-        "detail": "tensorflow.keras",
-        "documentation": {}
-    },
-    {
-        "label": "Input",
-        "importPath": "tensorflow.keras",
-        "description": "tensorflow.keras",
-        "isExtraImport": true,
-        "detail": "tensorflow.keras",
-        "documentation": {}
-    },
-    {
-        "label": "layers",
-        "importPath": "tensorflow.keras",
-        "description": "tensorflow.keras",
-        "isExtraImport": true,
-        "detail": "tensorflow.keras",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "tensorflow.keras",
-        "description": "tensorflow.keras",
-        "isExtraImport": true,
-        "detail": "tensorflow.keras",
-        "documentation": {}
-    },
-    {
         "label": "joblib",
         "kind": 6,
         "isExtraImport": true,
@@ -263,19 +185,108 @@
         "documentation": {}
     },
     {
-        "label": "factory",
-        "importPath": "trainer.factory",
-        "description": "trainer.factory",
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
         "isExtraImport": true,
-        "detail": "trainer.factory",
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "MinMaxScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "LabelEncoder",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "layers",
+        "importPath": "tf_keras",
+        "description": "tf_keras",
+        "isExtraImport": true,
+        "detail": "tf_keras",
+        "documentation": {}
+    },
+    {
+        "label": "Model",
+        "importPath": "tf_keras",
+        "description": "tf_keras",
+        "isExtraImport": true,
+        "detail": "tf_keras",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "tf_keras",
+        "description": "tf_keras",
+        "isExtraImport": true,
+        "detail": "tf_keras",
+        "documentation": {}
+    },
+    {
+        "label": "factory",
+        "importPath": "learning.factory",
+        "description": "learning.factory",
+        "isExtraImport": true,
+        "detail": "learning.factory",
         "documentation": {}
     },
     {
         "label": "seeds",
-        "importPath": "trainer.factory",
-        "description": "trainer.factory",
+        "importPath": "learning.factory",
+        "description": "learning.factory",
         "isExtraImport": true,
-        "detail": "trainer.factory",
+        "detail": "learning.factory",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflowjs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflowjs",
+        "description": "tensorflowjs",
+        "detail": "tensorflowjs",
+        "documentation": {}
+    },
+    {
+        "label": "Inverter",
+        "importPath": "modules.inverters",
+        "description": "modules.inverters",
+        "isExtraImport": true,
+        "detail": "modules.inverters",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "modules.modules",
+        "description": "modules.modules",
+        "isExtraImport": true,
+        "detail": "modules.modules",
+        "documentation": {}
+    },
+    {
+        "label": "estimate_cell_temperature",
+        "importPath": "modules.irradiance",
+        "description": "modules.irradiance",
+        "isExtraImport": true,
+        "detail": "modules.irradiance",
         "documentation": {}
     },
     {
@@ -347,6 +358,762 @@
         "documentation": {}
     },
     {
+        "label": "scaler_x",
+        "kind": 5,
+        "importPath": "learning.converter",
+        "description": "learning.converter",
+        "peekOfCode": "scaler_x = joblib.load('learning/output/scaler_x.pkl')\nscalers_y = joblib.load('learning/output/scalers_y.pkl')\nscalers_data = {\n    \"x\": {\"mean\": scaler_x.mean_.tolist(), \"scale\": scaler_x.scale_.tolist()},\n    \"y\": {k: {\n            \"min\": v.data_min_.tolist(),\n            \"max\": v.data_max_.tolist(),\n            \"range\": v.data_range_.tolist(),\n            \"scale\": v.data_range_.tolist(),\n            \"feature_range\": v.feature_range,",
+        "detail": "learning.converter",
+        "documentation": {}
+    },
+    {
+        "label": "scalers_y",
+        "kind": 5,
+        "importPath": "learning.converter",
+        "description": "learning.converter",
+        "peekOfCode": "scalers_y = joblib.load('learning/output/scalers_y.pkl')\nscalers_data = {\n    \"x\": {\"mean\": scaler_x.mean_.tolist(), \"scale\": scaler_x.scale_.tolist()},\n    \"y\": {k: {\n            \"min\": v.data_min_.tolist(),\n            \"max\": v.data_max_.tolist(),\n            \"range\": v.data_range_.tolist(),\n            \"scale\": v.data_range_.tolist(),\n            \"feature_range\": v.feature_range,\n        } for k, v in scalers_y.items()}",
+        "detail": "learning.converter",
+        "documentation": {}
+    },
+    {
+        "label": "scalers_data",
+        "kind": 5,
+        "importPath": "learning.converter",
+        "description": "learning.converter",
+        "peekOfCode": "scalers_data = {\n    \"x\": {\"mean\": scaler_x.mean_.tolist(), \"scale\": scaler_x.scale_.tolist()},\n    \"y\": {k: {\n            \"min\": v.data_min_.tolist(),\n            \"max\": v.data_max_.tolist(),\n            \"range\": v.data_range_.tolist(),\n            \"scale\": v.data_range_.tolist(),\n            \"feature_range\": v.feature_range,\n        } for k, v in scalers_y.items()}\n}",
+        "detail": "learning.converter",
+        "documentation": {}
+    },
+    {
+        "label": "encoder_module",
+        "kind": 5,
+        "importPath": "learning.converter",
+        "description": "learning.converter",
+        "peekOfCode": "encoder_module = joblib.load('learning/output/encoder_module.pkl')\nencoder_inverter = joblib.load('learning/output/encoder_inverter.pkl')\nencoders_data = {\n    \"module\": encoder_module.classes_.tolist(),\n    \"inverter\": encoder_inverter.classes_.tolist()\n}\nwith open(\"learning/output/web_model/encoders.json\", \"w\") as f:\n    json.dump(encoders_data, f)",
+        "detail": "learning.converter",
+        "documentation": {}
+    },
+    {
+        "label": "encoder_inverter",
+        "kind": 5,
+        "importPath": "learning.converter",
+        "description": "learning.converter",
+        "peekOfCode": "encoder_inverter = joblib.load('learning/output/encoder_inverter.pkl')\nencoders_data = {\n    \"module\": encoder_module.classes_.tolist(),\n    \"inverter\": encoder_inverter.classes_.tolist()\n}\nwith open(\"learning/output/web_model/encoders.json\", \"w\") as f:\n    json.dump(encoders_data, f)",
+        "detail": "learning.converter",
+        "documentation": {}
+    },
+    {
+        "label": "encoders_data",
+        "kind": 5,
+        "importPath": "learning.converter",
+        "description": "learning.converter",
+        "peekOfCode": "encoders_data = {\n    \"module\": encoder_module.classes_.tolist(),\n    \"inverter\": encoder_inverter.classes_.tolist()\n}\nwith open(\"learning/output/web_model/encoders.json\", \"w\") as f:\n    json.dump(encoders_data, f)",
+        "detail": "learning.converter",
+        "documentation": {}
+    },
+    {
+        "label": "seeds",
+        "kind": 2,
+        "importPath": "learning.factory",
+        "description": "learning.factory",
+        "peekOfCode": "def seeds(size):\n    seeds = []\n    for i in range(size):\n        seed = []\n        seed.append(demand_generator())         # Demand\n        seed.append(irradiance_generator())     # Irradiance\n        seed.append(temperature_generator())    # Temperature\n        seed.append(wind_speed_generator())     # Wind Speed    \n        seeds.append(seed)\n    return seeds",
+        "detail": "learning.factory",
+        "documentation": {}
+    },
+    {
+        "label": "factory",
+        "kind": 2,
+        "importPath": "learning.factory",
+        "description": "learning.factory",
+        "peekOfCode": "def factory(seeds, size):\n    selections = []\n    data = []\n    for i in range(size):\n        site = Site(seeds[i])\n        system = System(site)\n        selection = system.decision_making()\n        if selection == 0:\n            continue\n        selections.append([selection['module'], selection['inverter'], selection['power_required'], selection['nmod'], selection['ninv'], selection['total_ipmd'], selection['total_ipinv'], selection['ipsys']])",
+        "detail": "learning.factory",
+        "documentation": {}
+    },
+    {
+        "label": "demand_generator",
+        "kind": 2,
+        "importPath": "learning.generator",
+        "description": "learning.generator",
+        "peekOfCode": "def demand_generator(low=1200, high=150000):\n    # Generate one number, rounded to the nearest 100\n    demand = np.random.randint(low // 100, high // 100 + 1) * 100\n    return demand\n# Random irradiance generator\ndef irradiance_generator():\n    rng = np.random.default_rng()\n    irradiance = rng.uniform(600, 1500)\n    return irradiance\n# Random temperature generator",
+        "detail": "learning.generator",
+        "documentation": {}
+    },
+    {
+        "label": "irradiance_generator",
+        "kind": 2,
+        "importPath": "learning.generator",
+        "description": "learning.generator",
+        "peekOfCode": "def irradiance_generator():\n    rng = np.random.default_rng()\n    irradiance = rng.uniform(600, 1500)\n    return irradiance\n# Random temperature generator\ndef temperature_generator():\n    rng = np.random.default_rng()\n    temperature = rng.uniform(20, 45)\n    return temperature\n# Random wind speed generator",
+        "detail": "learning.generator",
+        "documentation": {}
+    },
+    {
+        "label": "temperature_generator",
+        "kind": 2,
+        "importPath": "learning.generator",
+        "description": "learning.generator",
+        "peekOfCode": "def temperature_generator():\n    rng = np.random.default_rng()\n    temperature = rng.uniform(20, 45)\n    return temperature\n# Random wind speed generator\ndef wind_speed_generator():\n    rng = np.random.default_rng()\n    wind_speed = rng.uniform(1, 25)\n    return wind_speed",
+        "detail": "learning.generator",
+        "documentation": {}
+    },
+    {
+        "label": "wind_speed_generator",
+        "kind": 2,
+        "importPath": "learning.generator",
+        "description": "learning.generator",
+        "peekOfCode": "def wind_speed_generator():\n    rng = np.random.default_rng()\n    wind_speed = rng.uniform(1, 25)\n    return wind_speed",
+        "detail": "learning.generator",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ['TF_CPP_MIN_LOG_LEVEL']",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'\nimport numpy as np\nimport math\nimport tensorflow as tf\nfrom tensorflow import keras\nimport joblib\nimport json\n# Disable annoying Tensorflow warnings in a production env\ntf.get_logger().setLevel('ERROR')\nfrom utils.io import Console",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "model = keras.models.load_model('decisionmaking.keras')\n# Load the scalers and encoders\nscaler_x = joblib.load('scaler_x.pkl')\nscaler_y = joblib.load('scalers_y.pkl')\nencoder_module = joblib.load('encoder_module.pkl')\nencoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "scaler_x",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "scaler_x = joblib.load('scaler_x.pkl')\nscaler_y = joblib.load('scalers_y.pkl')\nencoder_module = joblib.load('encoder_module.pkl')\nencoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "scaler_y",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "scaler_y = joblib.load('scalers_y.pkl')\nencoder_module = joblib.load('encoder_module.pkl')\nencoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "encoder_module",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "encoder_module = joblib.load('encoder_module.pkl')\nencoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)\n# Prediction",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "encoder_inverter",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "encoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)\n# Prediction\nConsole.send_info(\"Making the prediction\")",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "X_new",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "X_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)\n# Prediction\nConsole.send_info(\"Making the prediction\")\ny_pred = model.predict(X_new_scaled)\n# Separando as saídas\ny_module_pred = np.argmax(y_pred[0], axis=1)",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "X_new_scaled",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "X_new_scaled = scaler_x.transform(X_new)\n# Prediction\nConsole.send_info(\"Making the prediction\")\ny_pred = model.predict(X_new_scaled)\n# Separando as saídas\ny_module_pred = np.argmax(y_pred[0], axis=1)\ny_inverter_pred = np.argmax(y_pred[1], axis=1)\ny_power_pred = y_pred[2]\ny_nmod_pred = y_pred[3]\ny_ninv_pred = y_pred[4]",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_pred = model.predict(X_new_scaled)\n# Separando as saídas\ny_module_pred = np.argmax(y_pred[0], axis=1)\ny_inverter_pred = np.argmax(y_pred[1], axis=1)\ny_power_pred = y_pred[2]\ny_nmod_pred = y_pred[3]\ny_ninv_pred = y_pred[4]\ny_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_module_pred",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_module_pred = np.argmax(y_pred[0], axis=1)\ny_inverter_pred = np.argmax(y_pred[1], axis=1)\ny_power_pred = y_pred[2]\ny_nmod_pred = y_pred[3]\ny_ninv_pred = y_pred[4]\ny_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_inverter_pred",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_inverter_pred = np.argmax(y_pred[1], axis=1)\ny_power_pred = y_pred[2]\ny_nmod_pred = y_pred[3]\ny_ninv_pred = y_pred[4]\ny_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_power_pred",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_power_pred = y_pred[2]\ny_nmod_pred = y_pred[3]\ny_ninv_pred = y_pred[4]\ny_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y['power'].inverse_transform(y_power_pred)",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_nmod_pred",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_nmod_pred = y_pred[3]\ny_ninv_pred = y_pred[4]\ny_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y['power'].inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y['nmod'].inverse_transform(y_nmod_pred)",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_ninv_pred",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_ninv_pred = y_pred[4]\ny_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y['power'].inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y['nmod'].inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y['ninv'].inverse_transform(y_ninv_pred)",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_total_ipmd_pred",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y['power'].inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y['nmod'].inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y['ninv'].inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y['total_ipmd'].inverse_transform(y_total_ipmd_pred)",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_total_ipinv_pred",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y['power'].inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y['nmod'].inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y['ninv'].inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y['total_ipmd'].inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y['total_ipinv'].inverse_transform(y_total_ipinv_pred)",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_ipsys_pred",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y['power'].inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y['nmod'].inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y['ninv'].inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y['total_ipmd'].inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y['total_ipinv'].inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y['ipsys'].inverse_transform(y_ipsys_pred)",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_module_decoded",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y['power'].inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y['nmod'].inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y['ninv'].inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y['total_ipmd'].inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y['total_ipinv'].inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y['ipsys'].inverse_transform(y_ipsys_pred)\n# Output results\nfor i in range(len(X_new)):",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_inverter_decoded",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y['power'].inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y['nmod'].inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y['ninv'].inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y['total_ipmd'].inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y['total_ipinv'].inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y['ipsys'].inverse_transform(y_ipsys_pred)\n# Output results\nfor i in range(len(X_new)):\n    with open(\"data/modules.json\", \"r\", encoding=\"utf-8\") as f:",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_power_decoded",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_power_decoded = scaler_y['power'].inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y['nmod'].inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y['ninv'].inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y['total_ipmd'].inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y['total_ipinv'].inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y['ipsys'].inverse_transform(y_ipsys_pred)\n# Output results\nfor i in range(len(X_new)):\n    with open(\"data/modules.json\", \"r\", encoding=\"utf-8\") as f:\n        modules = json.load(f)['modules']",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_nmod_decoded",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_nmod_decoded = scaler_y['nmod'].inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y['ninv'].inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y['total_ipmd'].inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y['total_ipinv'].inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y['ipsys'].inverse_transform(y_ipsys_pred)\n# Output results\nfor i in range(len(X_new)):\n    with open(\"data/modules.json\", \"r\", encoding=\"utf-8\") as f:\n        modules = json.load(f)['modules']\n    with open(\"data/inverters.json\", \"r\", encoding=\"utf-8\") as f:",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_ninv_decoded",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_ninv_decoded = scaler_y['ninv'].inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y['total_ipmd'].inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y['total_ipinv'].inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y['ipsys'].inverse_transform(y_ipsys_pred)\n# Output results\nfor i in range(len(X_new)):\n    with open(\"data/modules.json\", \"r\", encoding=\"utf-8\") as f:\n        modules = json.load(f)['modules']\n    with open(\"data/inverters.json\", \"r\", encoding=\"utf-8\") as f:\n        inverters = json.load(f)['inverters']",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_total_ipmd_decoded",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_total_ipmd_decoded = scaler_y['total_ipmd'].inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y['total_ipinv'].inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y['ipsys'].inverse_transform(y_ipsys_pred)\n# Output results\nfor i in range(len(X_new)):\n    with open(\"data/modules.json\", \"r\", encoding=\"utf-8\") as f:\n        modules = json.load(f)['modules']\n    with open(\"data/inverters.json\", \"r\", encoding=\"utf-8\") as f:\n        inverters = json.load(f)['inverters']\n    module = next((m for m in modules if m[\"id\"] == int(y_module_decoded[i])), None)['name']",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_total_ipinv_decoded",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_total_ipinv_decoded = scaler_y['total_ipinv'].inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y['ipsys'].inverse_transform(y_ipsys_pred)\n# Output results\nfor i in range(len(X_new)):\n    with open(\"data/modules.json\", \"r\", encoding=\"utf-8\") as f:\n        modules = json.load(f)['modules']\n    with open(\"data/inverters.json\", \"r\", encoding=\"utf-8\") as f:\n        inverters = json.load(f)['inverters']\n    module = next((m for m in modules if m[\"id\"] == int(y_module_decoded[i])), None)['name']\n    inverter = next((m for m in inverters if m[\"id\"] == int(y_inverter_decoded[i])), None)['name']",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "y_ipsys_decoded",
+        "kind": 5,
+        "importPath": "learning.tester",
+        "description": "learning.tester",
+        "peekOfCode": "y_ipsys_decoded = scaler_y['ipsys'].inverse_transform(y_ipsys_pred)\n# Output results\nfor i in range(len(X_new)):\n    with open(\"data/modules.json\", \"r\", encoding=\"utf-8\") as f:\n        modules = json.load(f)['modules']\n    with open(\"data/inverters.json\", \"r\", encoding=\"utf-8\") as f:\n        inverters = json.load(f)['inverters']\n    module = next((m for m in modules if m[\"id\"] == int(y_module_decoded[i])), None)['name']\n    inverter = next((m for m in inverters if m[\"id\"] == int(y_inverter_decoded[i])), None)['name']\n    print(f\"\\nSystem {i+1}\")",
+        "detail": "learning.tester",
+        "documentation": {}
+    },
+    {
+        "label": "scale_target",
+        "kind": 2,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "def scale_target(name, arr):\n    arr = arr.reshape(-1, 1)\n    scaler = MinMaxScaler()\n    arr_scaled = scaler.fit_transform(arr)\n    scalers_y[name] = scaler\n    return arr_scaled\ny_power = scale_target(\"power\", y_power)\ny_nmod = scale_target(\"nmod\", y_nmod)\ny_ninv = scale_target(\"ninv\", y_ninv)\ny_total_ipmd = scale_target(\"total_ipmd\", y_total_ipmd)",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ['TF_CPP_MIN_LOG_LEVEL']",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'\nos.environ['TF_USE_LEGACY_KERAS'] = '1'\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import MinMaxScaler, StandardScaler, LabelEncoder\nimport tensorflow as tf\nfrom tf_keras import layers, Model, Input\nimport numpy as np\nimport joblib\nimport json\nfrom learning.factory import factory",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ['TF_USE_LEGACY_KERAS']",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "os.environ['TF_USE_LEGACY_KERAS'] = '1'\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import MinMaxScaler, StandardScaler, LabelEncoder\nimport tensorflow as tf\nfrom tf_keras import layers, Model, Input\nimport numpy as np\nimport joblib\nimport json\nfrom learning.factory import factory\nfrom learning.factory import seeds",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "x_values",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "x_values = np.array(seeds(100000))\nX = np.column_stack([x_values[:, 0], x_values[:, 1], x_values[:, 2], x_values[:, 3]])\ny_values = np.array(factory(x_values, 100000))\ny_module = y_values[:, 0]\ny_inverter = y_values[:, 1]\ny_power = y_values[:, 2]\ny_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "X = np.column_stack([x_values[:, 0], x_values[:, 1], x_values[:, 2], x_values[:, 3]])\ny_values = np.array(factory(x_values, 100000))\ny_module = y_values[:, 0]\ny_inverter = y_values[:, 1]\ny_power = y_values[:, 2]\ny_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_values",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_values = np.array(factory(x_values, 100000))\ny_module = y_values[:, 0]\ny_inverter = y_values[:, 1]\ny_power = y_values[:, 2]\ny_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_module",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_module = y_values[:, 0]\ny_inverter = y_values[:, 1]\ny_power = y_values[:, 2]\ny_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_inverter",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_inverter = y_values[:, 1]\ny_power = y_values[:, 2]\ny_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_power",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_power = y_values[:, 2]\ny_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_nmod",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_ninv",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_total_ipmd",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'learning/output/encoder_module.pkl')",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_total_ipinv",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'learning/output/encoder_module.pkl')\njoblib.dump(encoder_inverter, 'learning/output/encoder_inverter.pkl')",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_ipsys",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'learning/output/encoder_module.pkl')\njoblib.dump(encoder_inverter, 'learning/output/encoder_inverter.pkl')\n# Normalization of X",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "encoder_module",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "encoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'learning/output/encoder_module.pkl')\njoblib.dump(encoder_inverter, 'learning/output/encoder_inverter.pkl')\n# Normalization of X\nscaler_x = StandardScaler()\nX = scaler_x.fit_transform(X)",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_module",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'learning/output/encoder_module.pkl')\njoblib.dump(encoder_inverter, 'learning/output/encoder_inverter.pkl')\n# Normalization of X\nscaler_x = StandardScaler()\nX = scaler_x.fit_transform(X)\n# Save X encoder",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "encoder_inverter",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "encoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'learning/output/encoder_module.pkl')\njoblib.dump(encoder_inverter, 'learning/output/encoder_inverter.pkl')\n# Normalization of X\nscaler_x = StandardScaler()\nX = scaler_x.fit_transform(X)\n# Save X encoder\njoblib.dump(scaler_x, 'learning/output/scaler_x.pkl')",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_inverter",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'learning/output/encoder_module.pkl')\njoblib.dump(encoder_inverter, 'learning/output/encoder_inverter.pkl')\n# Normalization of X\nscaler_x = StandardScaler()\nX = scaler_x.fit_transform(X)\n# Save X encoder\njoblib.dump(scaler_x, 'learning/output/scaler_x.pkl')\n# Normalization of numerics Y",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "scaler_x",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "scaler_x = StandardScaler()\nX = scaler_x.fit_transform(X)\n# Save X encoder\njoblib.dump(scaler_x, 'learning/output/scaler_x.pkl')\n# Normalization of numerics Y\nscalers_y = {}\ndef scale_target(name, arr):\n    arr = arr.reshape(-1, 1)\n    scaler = MinMaxScaler()\n    arr_scaled = scaler.fit_transform(arr)",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "X = scaler_x.fit_transform(X)\n# Save X encoder\njoblib.dump(scaler_x, 'learning/output/scaler_x.pkl')\n# Normalization of numerics Y\nscalers_y = {}\ndef scale_target(name, arr):\n    arr = arr.reshape(-1, 1)\n    scaler = MinMaxScaler()\n    arr_scaled = scaler.fit_transform(arr)\n    scalers_y[name] = scaler",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "scalers_y",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "scalers_y = {}\ndef scale_target(name, arr):\n    arr = arr.reshape(-1, 1)\n    scaler = MinMaxScaler()\n    arr_scaled = scaler.fit_transform(arr)\n    scalers_y[name] = scaler\n    return arr_scaled\ny_power = scale_target(\"power\", y_power)\ny_nmod = scale_target(\"nmod\", y_nmod)\ny_ninv = scale_target(\"ninv\", y_ninv)",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_power",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_power = scale_target(\"power\", y_power)\ny_nmod = scale_target(\"nmod\", y_nmod)\ny_ninv = scale_target(\"ninv\", y_ninv)\ny_total_ipmd = scale_target(\"total_ipmd\", y_total_ipmd)\ny_total_ipinv = scale_target(\"total_ipinv\", y_total_ipinv)\ny_ipsys = scale_target(\"ipsys\", y_ipsys)\n# Save Y scaler\njoblib.dump(scalers_y, 'learning/output/scalers_y.pkl')\nConsole.send_success('All scalers and encoders saved.')\n# Data splitting",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_nmod",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_nmod = scale_target(\"nmod\", y_nmod)\ny_ninv = scale_target(\"ninv\", y_ninv)\ny_total_ipmd = scale_target(\"total_ipmd\", y_total_ipmd)\ny_total_ipinv = scale_target(\"total_ipinv\", y_total_ipinv)\ny_ipsys = scale_target(\"ipsys\", y_ipsys)\n# Save Y scaler\njoblib.dump(scalers_y, 'learning/output/scalers_y.pkl')\nConsole.send_success('All scalers and encoders saved.')\n# Data splitting\narrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_ninv",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_ninv = scale_target(\"ninv\", y_ninv)\ny_total_ipmd = scale_target(\"total_ipmd\", y_total_ipmd)\ny_total_ipinv = scale_target(\"total_ipinv\", y_total_ipinv)\ny_ipsys = scale_target(\"ipsys\", y_ipsys)\n# Save Y scaler\njoblib.dump(scalers_y, 'learning/output/scalers_y.pkl')\nConsole.send_success('All scalers and encoders saved.')\n# Data splitting\narrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]\nsplits = train_test_split(*arrays, test_size=0.2, random_state=42)",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_total_ipmd",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_total_ipmd = scale_target(\"total_ipmd\", y_total_ipmd)\ny_total_ipinv = scale_target(\"total_ipinv\", y_total_ipinv)\ny_ipsys = scale_target(\"ipsys\", y_ipsys)\n# Save Y scaler\njoblib.dump(scalers_y, 'learning/output/scalers_y.pkl')\nConsole.send_success('All scalers and encoders saved.')\n# Data splitting\narrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]\nsplits = train_test_split(*arrays, test_size=0.2, random_state=42)\n(",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_total_ipinv",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_total_ipinv = scale_target(\"total_ipinv\", y_total_ipinv)\ny_ipsys = scale_target(\"ipsys\", y_ipsys)\n# Save Y scaler\njoblib.dump(scalers_y, 'learning/output/scalers_y.pkl')\nConsole.send_success('All scalers and encoders saved.')\n# Data splitting\narrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]\nsplits = train_test_split(*arrays, test_size=0.2, random_state=42)\n(\n    X_train, X_test,",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "y_ipsys",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "y_ipsys = scale_target(\"ipsys\", y_ipsys)\n# Save Y scaler\njoblib.dump(scalers_y, 'learning/output/scalers_y.pkl')\nConsole.send_success('All scalers and encoders saved.')\n# Data splitting\narrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]\nsplits = train_test_split(*arrays, test_size=0.2, random_state=42)\n(\n    X_train, X_test,\n    y_module_train, y_module_test,",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "arrays",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "arrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]\nsplits = train_test_split(*arrays, test_size=0.2, random_state=42)\n(\n    X_train, X_test,\n    y_module_train, y_module_test,\n    y_inverter_train, y_inverter_test,\n    y_power_train, y_power_test,\n    y_nmod_train, y_nmod_test,\n    y_ninv_train, y_ninv_test,\n    y_total_ipmd_train, y_total_ipmd_test,",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "splits",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "splits = train_test_split(*arrays, test_size=0.2, random_state=42)\n(\n    X_train, X_test,\n    y_module_train, y_module_test,\n    y_inverter_train, y_inverter_test,\n    y_power_train, y_power_test,\n    y_nmod_train, y_nmod_test,\n    y_ninv_train, y_ninv_test,\n    y_total_ipmd_train, y_total_ipmd_test,\n    y_total_ipinv_train, y_total_ipinv_test,",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": ")",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": ") = splits\n# Defining the inputs and the model\ninputs = Input(shape=(X_train.shape[1],))\nx = layers.Dense(128, activation=\"relu\")(inputs)\nx = layers.Dense(64, activation=\"relu\")(x)\nout_module = layers.Dense(len(np.unique(y_module)), activation=\"softmax\", name=\"module\")(x)\nout_inverter = layers.Dense(len(np.unique(y_inverter)), activation=\"softmax\", name=\"inverter\")(x)\nout_power = layers.Dense(1, name=\"power\")(x)\nout_nmod = layers.Dense(1, name=\"nmod\")(x)\nout_ninv = layers.Dense(1, name=\"ninv\")(x)",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "inputs",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "inputs = Input(shape=(X_train.shape[1],))\nx = layers.Dense(128, activation=\"relu\")(inputs)\nx = layers.Dense(64, activation=\"relu\")(x)\nout_module = layers.Dense(len(np.unique(y_module)), activation=\"softmax\", name=\"module\")(x)\nout_inverter = layers.Dense(len(np.unique(y_inverter)), activation=\"softmax\", name=\"inverter\")(x)\nout_power = layers.Dense(1, name=\"power\")(x)\nout_nmod = layers.Dense(1, name=\"nmod\")(x)\nout_ninv = layers.Dense(1, name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, name=\"total_ipinv\")(x)",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "x = layers.Dense(128, activation=\"relu\")(inputs)\nx = layers.Dense(64, activation=\"relu\")(x)\nout_module = layers.Dense(len(np.unique(y_module)), activation=\"softmax\", name=\"module\")(x)\nout_inverter = layers.Dense(len(np.unique(y_inverter)), activation=\"softmax\", name=\"inverter\")(x)\nout_power = layers.Dense(1, name=\"power\")(x)\nout_nmod = layers.Dense(1, name=\"nmod\")(x)\nout_ninv = layers.Dense(1, name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, name=\"ipsys\")(x)",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "x = layers.Dense(64, activation=\"relu\")(x)\nout_module = layers.Dense(len(np.unique(y_module)), activation=\"softmax\", name=\"module\")(x)\nout_inverter = layers.Dense(len(np.unique(y_inverter)), activation=\"softmax\", name=\"inverter\")(x)\nout_power = layers.Dense(1, name=\"power\")(x)\nout_nmod = layers.Dense(1, name=\"nmod\")(x)\nout_ninv = layers.Dense(1, name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, name=\"ipsys\")(x)\nmodel = Model(",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "out_module",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "out_module = layers.Dense(len(np.unique(y_module)), activation=\"softmax\", name=\"module\")(x)\nout_inverter = layers.Dense(len(np.unique(y_inverter)), activation=\"softmax\", name=\"inverter\")(x)\nout_power = layers.Dense(1, name=\"power\")(x)\nout_nmod = layers.Dense(1, name=\"nmod\")(x)\nout_ninv = layers.Dense(1, name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "out_inverter",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "out_inverter = layers.Dense(len(np.unique(y_inverter)), activation=\"softmax\", name=\"inverter\")(x)\nout_power = layers.Dense(1, name=\"power\")(x)\nout_nmod = layers.Dense(1, name=\"nmod\")(x)\nout_ninv = layers.Dense(1, name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "out_power",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "out_power = layers.Dense(1, name=\"power\")(x)\nout_nmod = layers.Dense(1, name=\"nmod\")(x)\nout_ninv = layers.Dense(1, name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "out_nmod",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "out_nmod = layers.Dense(1, name=\"nmod\")(x)\nout_ninv = layers.Dense(1, name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)\n# Compile the model",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "out_ninv",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "out_ninv = layers.Dense(1, name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)\n# Compile the model\nmodel.compile(",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "out_total_ipmd",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "out_total_ipmd = layers.Dense(1, name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)\n# Compile the model\nmodel.compile(\n    optimizer=\"adam\",",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "out_total_ipinv",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "out_total_ipinv = layers.Dense(1, name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)\n# Compile the model\nmodel.compile(\n    optimizer=\"adam\",\n    loss={",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "out_ipsys",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "out_ipsys = layers.Dense(1, name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)\n# Compile the model\nmodel.compile(\n    optimizer=\"adam\",\n    loss={\n        \"module\": \"sparse_categorical_crossentropy\",",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "model = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)\n# Compile the model\nmodel.compile(\n    optimizer=\"adam\",\n    loss={\n        \"module\": \"sparse_categorical_crossentropy\",\n        \"inverter\": \"sparse_categorical_crossentropy\",",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "history",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "history = model.fit(\n    X_train,\n    {\n        \"module\": y_module_train,\n        \"inverter\": y_inverter_train,\n        \"power\": y_power_train,\n        \"nmod\": y_nmod_train,\n        \"ninv\": y_ninv_train,\n        \"total_ipmd\": y_total_ipmd_train,\n        \"total_ipinv\": y_total_ipinv_train,",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "np.object",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "np.object = object\nnp.bool = bool\nimport tensorflowjs as tfjs\ntfjs.converters.save_keras_model(model, \"learning/output/web_model\")\n# Convert the scalers and encoders\nscalers_data = {\n    \"x\": {\"mean\": scaler_x.mean_.tolist(), \"scale\": scaler_x.scale_.tolist()},\n    \"y\": {k: {\n            \"min\": v.data_min_.tolist(),\n            \"max\": v.data_max_.tolist(),",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "np.bool",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "np.bool = bool\nimport tensorflowjs as tfjs\ntfjs.converters.save_keras_model(model, \"learning/output/web_model\")\n# Convert the scalers and encoders\nscalers_data = {\n    \"x\": {\"mean\": scaler_x.mean_.tolist(), \"scale\": scaler_x.scale_.tolist()},\n    \"y\": {k: {\n            \"min\": v.data_min_.tolist(),\n            \"max\": v.data_max_.tolist(),\n            \"range\": v.data_range_.tolist(),",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "scalers_data",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "scalers_data = {\n    \"x\": {\"mean\": scaler_x.mean_.tolist(), \"scale\": scaler_x.scale_.tolist()},\n    \"y\": {k: {\n            \"min\": v.data_min_.tolist(),\n            \"max\": v.data_max_.tolist(),\n            \"range\": v.data_range_.tolist(),\n            \"scale\": v.data_range_.tolist(),\n            \"feature_range\": v.feature_range,\n        } for k, v in scalers_y.items()}\n}",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
+        "label": "encoders_data",
+        "kind": 5,
+        "importPath": "learning.train",
+        "description": "learning.train",
+        "peekOfCode": "encoders_data = {\n    \"module\": encoder_module.classes_.tolist(),\n    \"inverter\": encoder_inverter.classes_.tolist()\n}\nwith open('learning/output/web_model/encoders.json', 'w') as file:\n    json.dump(encoders_data, file)\nConsole.send_success('Model saved to learning/output')",
+        "detail": "learning.train",
+        "documentation": {}
+    },
+    {
         "label": "System",
         "kind": 6,
         "importPath": "modules.decision",
@@ -392,659 +1159,11 @@
         "documentation": {}
     },
     {
-        "label": "seeds",
-        "kind": 2,
-        "importPath": "trainer.factory",
-        "description": "trainer.factory",
-        "peekOfCode": "def seeds(size):\n    seeds = []\n    for i in range(size):\n        seed = []\n        seed.append(demand_generator())         # Demand\n        seed.append(irradiance_generator())     # Irradiance\n        seed.append(temperature_generator())    # Temperature\n        seed.append(wind_speed_generator())     # Wind Speed    \n        seeds.append(seed)\n    return seeds",
-        "detail": "trainer.factory",
-        "documentation": {}
-    },
-    {
-        "label": "factory",
-        "kind": 2,
-        "importPath": "trainer.factory",
-        "description": "trainer.factory",
-        "peekOfCode": "def factory(seeds, size):\n    selections = []\n    data = []\n    for i in range(size):\n        site = Site(seeds[i])\n        system = System(site)\n        selection = system.decision_making()\n        if selection == 0:\n            continue\n        selections.append([selection['module'], selection['inverter'], selection['power_required'], selection['nmod'], selection['ninv'], selection['total_ipmd'], selection['total_ipinv'], selection['ipsys']])",
-        "detail": "trainer.factory",
-        "documentation": {}
-    },
-    {
-        "label": "demand_generator",
-        "kind": 2,
-        "importPath": "trainer.generator",
-        "description": "trainer.generator",
-        "peekOfCode": "def demand_generator(low=1200, high=150000):\n    # Generate one number, rounded to the nearest 100\n    demand = np.random.randint(low // 100, high // 100 + 1) * 100\n    return demand\n# Random irradiance generator\ndef irradiance_generator():\n    rng = np.random.default_rng()\n    irradiance = rng.uniform(600, 1500)\n    return irradiance\n# Random temperature generator",
-        "detail": "trainer.generator",
-        "documentation": {}
-    },
-    {
-        "label": "irradiance_generator",
-        "kind": 2,
-        "importPath": "trainer.generator",
-        "description": "trainer.generator",
-        "peekOfCode": "def irradiance_generator():\n    rng = np.random.default_rng()\n    irradiance = rng.uniform(600, 1500)\n    return irradiance\n# Random temperature generator\ndef temperature_generator():\n    rng = np.random.default_rng()\n    temperature = rng.uniform(20, 45)\n    return temperature\n# Random wind speed generator",
-        "detail": "trainer.generator",
-        "documentation": {}
-    },
-    {
-        "label": "temperature_generator",
-        "kind": 2,
-        "importPath": "trainer.generator",
-        "description": "trainer.generator",
-        "peekOfCode": "def temperature_generator():\n    rng = np.random.default_rng()\n    temperature = rng.uniform(20, 45)\n    return temperature\n# Random wind speed generator\ndef wind_speed_generator():\n    rng = np.random.default_rng()\n    wind_speed = rng.uniform(1, 25)\n    return wind_speed",
-        "detail": "trainer.generator",
-        "documentation": {}
-    },
-    {
-        "label": "wind_speed_generator",
-        "kind": 2,
-        "importPath": "trainer.generator",
-        "description": "trainer.generator",
-        "peekOfCode": "def wind_speed_generator():\n    rng = np.random.default_rng()\n    wind_speed = rng.uniform(1, 25)\n    return wind_speed",
-        "detail": "trainer.generator",
-        "documentation": {}
-    },
-    {
-        "label": "scale_target",
-        "kind": 2,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "def scale_target(name, arr):\n    arr = arr.reshape(-1, 1)\n    scaler = StandardScaler()\n    arr_scaled = scaler.fit_transform(arr)\n    scalers_y[name] = scaler\n    return arr_scaled\ny_power = scale_target(\"power\", y_power)\ny_nmod = scale_target(\"nmod\", y_nmod)\ny_ninv = scale_target(\"ninv\", y_ninv)\ny_total_ipmd = scale_target(\"total_ipmd\", y_total_ipmd)",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "x_values",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "x_values = np.array(seeds(4000))\nX = np.column_stack([x_values[:, 0], x_values[:, 1], x_values[:, 2], x_values[:, 3]])\ny_values = np.array(factory(x_values, 4000))\ny_module = y_values[:, 0]\ny_inverter = y_values[:, 1]\ny_power = y_values[:, 2]\ny_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "X",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "X = np.column_stack([x_values[:, 0], x_values[:, 1], x_values[:, 2], x_values[:, 3]])\ny_values = np.array(factory(x_values, 4000))\ny_module = y_values[:, 0]\ny_inverter = y_values[:, 1]\ny_power = y_values[:, 2]\ny_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_values",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_values = np.array(factory(x_values, 4000))\ny_module = y_values[:, 0]\ny_inverter = y_values[:, 1]\ny_power = y_values[:, 2]\ny_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_module",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_module = y_values[:, 0]\ny_inverter = y_values[:, 1]\ny_power = y_values[:, 2]\ny_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_inverter",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_inverter = y_values[:, 1]\ny_power = y_values[:, 2]\ny_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_power",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_power = y_values[:, 2]\ny_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_nmod",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_nmod = y_values[:, 3]\ny_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_ninv",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_ninv = y_values[:, 4]\ny_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_total_ipmd",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_total_ipmd = y_values[:, 5]\ny_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'encoder_module.pkl')",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_total_ipinv",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_total_ipinv = y_values[:, 6]\ny_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'encoder_module.pkl')\njoblib.dump(encoder_inverter, 'encoder_inverter.pkl')",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_ipsys",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_ipsys = y_values[:, 7]\n# Normalization\nencoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'encoder_module.pkl')\njoblib.dump(encoder_inverter, 'encoder_inverter.pkl')\n# Normalization of X",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "encoder_module",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "encoder_module = LabelEncoder()\ny_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'encoder_module.pkl')\njoblib.dump(encoder_inverter, 'encoder_inverter.pkl')\n# Normalization of X\nscaler_x = StandardScaler()\nX = scaler_x.fit_transform(X)",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_module",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_module = encoder_module.fit_transform(y_module)\nencoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'encoder_module.pkl')\njoblib.dump(encoder_inverter, 'encoder_inverter.pkl')\n# Normalization of X\nscaler_x = StandardScaler()\nX = scaler_x.fit_transform(X)\njoblib.dump(scaler_x, 'scaler_x.pkl')",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "encoder_inverter",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "encoder_inverter = LabelEncoder()\ny_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'encoder_module.pkl')\njoblib.dump(encoder_inverter, 'encoder_inverter.pkl')\n# Normalization of X\nscaler_x = StandardScaler()\nX = scaler_x.fit_transform(X)\njoblib.dump(scaler_x, 'scaler_x.pkl')\n# Normalization of numerics Y",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_inverter",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_inverter = encoder_inverter.fit_transform(y_inverter)\n# Saving encoders\njoblib.dump(encoder_module, 'encoder_module.pkl')\njoblib.dump(encoder_inverter, 'encoder_inverter.pkl')\n# Normalization of X\nscaler_x = StandardScaler()\nX = scaler_x.fit_transform(X)\njoblib.dump(scaler_x, 'scaler_x.pkl')\n# Normalization of numerics Y\nscalers_y = {}",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "scaler_x",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "scaler_x = StandardScaler()\nX = scaler_x.fit_transform(X)\njoblib.dump(scaler_x, 'scaler_x.pkl')\n# Normalization of numerics Y\nscalers_y = {}\ndef scale_target(name, arr):\n    arr = arr.reshape(-1, 1)\n    scaler = StandardScaler()\n    arr_scaled = scaler.fit_transform(arr)\n    scalers_y[name] = scaler",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "X",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "X = scaler_x.fit_transform(X)\njoblib.dump(scaler_x, 'scaler_x.pkl')\n# Normalization of numerics Y\nscalers_y = {}\ndef scale_target(name, arr):\n    arr = arr.reshape(-1, 1)\n    scaler = StandardScaler()\n    arr_scaled = scaler.fit_transform(arr)\n    scalers_y[name] = scaler\n    return arr_scaled",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "scalers_y",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "scalers_y = {}\ndef scale_target(name, arr):\n    arr = arr.reshape(-1, 1)\n    scaler = StandardScaler()\n    arr_scaled = scaler.fit_transform(arr)\n    scalers_y[name] = scaler\n    return arr_scaled\ny_power = scale_target(\"power\", y_power)\ny_nmod = scale_target(\"nmod\", y_nmod)\ny_ninv = scale_target(\"ninv\", y_ninv)",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_power",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_power = scale_target(\"power\", y_power)\ny_nmod = scale_target(\"nmod\", y_nmod)\ny_ninv = scale_target(\"ninv\", y_ninv)\ny_total_ipmd = scale_target(\"total_ipmd\", y_total_ipmd)\ny_total_ipinv = scale_target(\"total_ipinv\", y_total_ipinv)\ny_ipsys = scale_target(\"ipsys\", y_ipsys)\njoblib.dump(scalers_y, 'scalers_y.pkl')\nConsole.send_success('All scalers and encoders saved.')\n# Data splitting\narrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_nmod",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_nmod = scale_target(\"nmod\", y_nmod)\ny_ninv = scale_target(\"ninv\", y_ninv)\ny_total_ipmd = scale_target(\"total_ipmd\", y_total_ipmd)\ny_total_ipinv = scale_target(\"total_ipinv\", y_total_ipinv)\ny_ipsys = scale_target(\"ipsys\", y_ipsys)\njoblib.dump(scalers_y, 'scalers_y.pkl')\nConsole.send_success('All scalers and encoders saved.')\n# Data splitting\narrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]\nsplits = train_test_split(*arrays, test_size=0.2, random_state=42)",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_ninv",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_ninv = scale_target(\"ninv\", y_ninv)\ny_total_ipmd = scale_target(\"total_ipmd\", y_total_ipmd)\ny_total_ipinv = scale_target(\"total_ipinv\", y_total_ipinv)\ny_ipsys = scale_target(\"ipsys\", y_ipsys)\njoblib.dump(scalers_y, 'scalers_y.pkl')\nConsole.send_success('All scalers and encoders saved.')\n# Data splitting\narrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]\nsplits = train_test_split(*arrays, test_size=0.2, random_state=42)\n(",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_total_ipmd",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_total_ipmd = scale_target(\"total_ipmd\", y_total_ipmd)\ny_total_ipinv = scale_target(\"total_ipinv\", y_total_ipinv)\ny_ipsys = scale_target(\"ipsys\", y_ipsys)\njoblib.dump(scalers_y, 'scalers_y.pkl')\nConsole.send_success('All scalers and encoders saved.')\n# Data splitting\narrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]\nsplits = train_test_split(*arrays, test_size=0.2, random_state=42)\n(\n    X_train, X_test,",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_total_ipinv",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_total_ipinv = scale_target(\"total_ipinv\", y_total_ipinv)\ny_ipsys = scale_target(\"ipsys\", y_ipsys)\njoblib.dump(scalers_y, 'scalers_y.pkl')\nConsole.send_success('All scalers and encoders saved.')\n# Data splitting\narrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]\nsplits = train_test_split(*arrays, test_size=0.2, random_state=42)\n(\n    X_train, X_test,\n    y_module_train, y_module_test,",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "y_ipsys",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "y_ipsys = scale_target(\"ipsys\", y_ipsys)\njoblib.dump(scalers_y, 'scalers_y.pkl')\nConsole.send_success('All scalers and encoders saved.')\n# Data splitting\narrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]\nsplits = train_test_split(*arrays, test_size=0.2, random_state=42)\n(\n    X_train, X_test,\n    y_module_train, y_module_test,\n    y_inverter_train, y_inverter_test,",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "arrays",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "arrays = [X, y_module, y_inverter, y_power, y_nmod, y_ninv, y_total_ipmd, y_total_ipinv, y_ipsys]\nsplits = train_test_split(*arrays, test_size=0.2, random_state=42)\n(\n    X_train, X_test,\n    y_module_train, y_module_test,\n    y_inverter_train, y_inverter_test,\n    y_power_train, y_power_test,\n    y_nmod_train, y_nmod_test,\n    y_ninv_train, y_ninv_test,\n    y_total_ipmd_train, y_total_ipmd_test,",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "splits",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "splits = train_test_split(*arrays, test_size=0.2, random_state=42)\n(\n    X_train, X_test,\n    y_module_train, y_module_test,\n    y_inverter_train, y_inverter_test,\n    y_power_train, y_power_test,\n    y_nmod_train, y_nmod_test,\n    y_ninv_train, y_ninv_test,\n    y_total_ipmd_train, y_total_ipmd_test,\n    y_total_ipinv_train, y_total_ipinv_test,",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": ")",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": ") = splits\n# Defining the inputs and the model\ninputs = Input(shape=(X_train.shape[1],))\nx = layers.Dense(128, activation=\"relu\")(inputs)\nx = layers.Dense(64, activation=\"relu\")(x)\nout_module = layers.Dense(len(np.unique(y_module)), activation=\"softmax\", name=\"module\")(x)\nout_inverter = layers.Dense(len(np.unique(y_inverter)), activation=\"softmax\", name=\"inverter\")(x)\nout_power = layers.Dense(1, activation='linear', name=\"power\")(x)\nout_nmod = layers.Dense(1, activation='linear', name=\"nmod\")(x)\nout_ninv = layers.Dense(1, activation='linear', name=\"ninv\")(x)",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "inputs",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "inputs = Input(shape=(X_train.shape[1],))\nx = layers.Dense(128, activation=\"relu\")(inputs)\nx = layers.Dense(64, activation=\"relu\")(x)\nout_module = layers.Dense(len(np.unique(y_module)), activation=\"softmax\", name=\"module\")(x)\nout_inverter = layers.Dense(len(np.unique(y_inverter)), activation=\"softmax\", name=\"inverter\")(x)\nout_power = layers.Dense(1, activation='linear', name=\"power\")(x)\nout_nmod = layers.Dense(1, activation='linear', name=\"nmod\")(x)\nout_ninv = layers.Dense(1, activation='linear', name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, activation='linear', name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, activation='linear', name=\"total_ipinv\")(x)",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "x",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "x = layers.Dense(128, activation=\"relu\")(inputs)\nx = layers.Dense(64, activation=\"relu\")(x)\nout_module = layers.Dense(len(np.unique(y_module)), activation=\"softmax\", name=\"module\")(x)\nout_inverter = layers.Dense(len(np.unique(y_inverter)), activation=\"softmax\", name=\"inverter\")(x)\nout_power = layers.Dense(1, activation='linear', name=\"power\")(x)\nout_nmod = layers.Dense(1, activation='linear', name=\"nmod\")(x)\nout_ninv = layers.Dense(1, activation='linear', name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, activation='linear', name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, activation='linear', name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, activation='linear', name=\"ipsys\")(x)",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "x",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "x = layers.Dense(64, activation=\"relu\")(x)\nout_module = layers.Dense(len(np.unique(y_module)), activation=\"softmax\", name=\"module\")(x)\nout_inverter = layers.Dense(len(np.unique(y_inverter)), activation=\"softmax\", name=\"inverter\")(x)\nout_power = layers.Dense(1, activation='linear', name=\"power\")(x)\nout_nmod = layers.Dense(1, activation='linear', name=\"nmod\")(x)\nout_ninv = layers.Dense(1, activation='linear', name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, activation='linear', name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, activation='linear', name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, activation='linear', name=\"ipsys\")(x)\nmodel = Model(",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "out_module",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "out_module = layers.Dense(len(np.unique(y_module)), activation=\"softmax\", name=\"module\")(x)\nout_inverter = layers.Dense(len(np.unique(y_inverter)), activation=\"softmax\", name=\"inverter\")(x)\nout_power = layers.Dense(1, activation='linear', name=\"power\")(x)\nout_nmod = layers.Dense(1, activation='linear', name=\"nmod\")(x)\nout_ninv = layers.Dense(1, activation='linear', name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, activation='linear', name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, activation='linear', name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, activation='linear', name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "out_inverter",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "out_inverter = layers.Dense(len(np.unique(y_inverter)), activation=\"softmax\", name=\"inverter\")(x)\nout_power = layers.Dense(1, activation='linear', name=\"power\")(x)\nout_nmod = layers.Dense(1, activation='linear', name=\"nmod\")(x)\nout_ninv = layers.Dense(1, activation='linear', name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, activation='linear', name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, activation='linear', name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, activation='linear', name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "out_power",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "out_power = layers.Dense(1, activation='linear', name=\"power\")(x)\nout_nmod = layers.Dense(1, activation='linear', name=\"nmod\")(x)\nout_ninv = layers.Dense(1, activation='linear', name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, activation='linear', name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, activation='linear', name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, activation='linear', name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "out_nmod",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "out_nmod = layers.Dense(1, activation='linear', name=\"nmod\")(x)\nout_ninv = layers.Dense(1, activation='linear', name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, activation='linear', name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, activation='linear', name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, activation='linear', name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)\n# Compile the model",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "out_ninv",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "out_ninv = layers.Dense(1, activation='linear', name=\"ninv\")(x)\nout_total_ipmd = layers.Dense(1, activation='linear', name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, activation='linear', name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, activation='linear', name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)\n# Compile the model\nmodel.compile(",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "out_total_ipmd",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "out_total_ipmd = layers.Dense(1, activation='linear', name=\"total_ipmd\")(x)\nout_total_ipinv = layers.Dense(1, activation='linear', name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, activation='linear', name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)\n# Compile the model\nmodel.compile(\n    optimizer=\"adam\",",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "out_total_ipinv",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "out_total_ipinv = layers.Dense(1, activation='linear', name=\"total_ipinv\")(x)\nout_ipsys = layers.Dense(1, activation='linear', name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)\n# Compile the model\nmodel.compile(\n    optimizer=\"adam\",\n    loss={",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "out_ipsys",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "out_ipsys = layers.Dense(1, activation='linear', name=\"ipsys\")(x)\nmodel = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)\n# Compile the model\nmodel.compile(\n    optimizer=\"adam\",\n    loss={\n        \"module\": \"sparse_categorical_crossentropy\",",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "model",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "model = Model(\n    inputs=inputs,\n    outputs=[out_module, out_inverter, out_power, out_nmod, out_ninv, out_total_ipmd, out_total_ipinv, out_ipsys]\n)\n# Compile the model\nmodel.compile(\n    optimizer=\"adam\",\n    loss={\n        \"module\": \"sparse_categorical_crossentropy\",\n        \"inverter\": \"sparse_categorical_crossentropy\",",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "history",
-        "kind": 5,
-        "importPath": "trainer.keras",
-        "description": "trainer.keras",
-        "peekOfCode": "history = model.fit(\n    X_train,\n    {\n        \"module\": y_module_train,\n        \"inverter\": y_inverter_train,\n        \"power\": y_power_train,\n        \"nmod\": y_nmod_train,\n        \"ninv\": y_ninv_train,\n        \"total_ipmd\": y_total_ipmd_train,\n        \"total_ipinv\": y_total_ipinv_train,",
-        "detail": "trainer.keras",
-        "documentation": {}
-    },
-    {
-        "label": "custom_loss",
-        "kind": 2,
-        "importPath": "trainer.loss",
-        "description": "trainer.loss",
-        "peekOfCode": "def custom_loss(y_true, y_pred, specs):\n    \"\"\"\n    y_true: [indice_total_real, num_modulos_real]\n    y_pred: [indice_total_pred, num_modulos_pred]\n    specs: dicionário com dados do módulo e inversor para checagens\n    \"\"\"\n    index_pred = y_pred[:, 0]\n    nmod_pred = tf.round(y_pred[:, 1])  \n    index_true = y_true[:, 0]\n    nmod_true = y_true[:, 1]",
-        "detail": "trainer.loss",
-        "documentation": {}
-    },
-    {
-        "label": "model",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "model = keras.models.load_model('decisionmaking.keras')\n# Load the scalers and encoders\nscaler_x = joblib.load('scaler_x.pkl')\nscaler_y = joblib.load('scaler_y.pkl')\nencoder_module = joblib.load('encoder_module.pkl')\nencoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "scaler_x",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "scaler_x = joblib.load('scaler_x.pkl')\nscaler_y = joblib.load('scaler_y.pkl')\nencoder_module = joblib.load('encoder_module.pkl')\nencoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "scaler_y",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "scaler_y = joblib.load('scaler_y.pkl')\nencoder_module = joblib.load('encoder_module.pkl')\nencoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "encoder_module",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "encoder_module = joblib.load('encoder_module.pkl')\nencoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)\n# Prediction",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "encoder_inverter",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "encoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)\n# Prediction\nConsole.send_info(\"Making the prediction\")",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "X_new",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "X_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)\n# Prediction\nConsole.send_info(\"Making the prediction\")\ny_pred = model.predict(X_new_scaled)\n# Separando as saídas\ny_module_pred = np.argmax(y_pred[0], axis=1)",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "X_new_scaled",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "X_new_scaled = scaler_x.transform(X_new)\n# Prediction\nConsole.send_info(\"Making the prediction\")\ny_pred = model.predict(X_new_scaled)\n# Separando as saídas\ny_module_pred = np.argmax(y_pred[0], axis=1)\ny_inverter_pred = np.argmax(y_pred[1], axis=1)\ny_power_pred = y_pred[2]\ny_nmod_pred = y_pred[3]\ny_ninv_pred = y_pred[4]",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_pred",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_pred = model.predict(X_new_scaled)\n# Separando as saídas\ny_module_pred = np.argmax(y_pred[0], axis=1)\ny_inverter_pred = np.argmax(y_pred[1], axis=1)\ny_power_pred = y_pred[2]\ny_nmod_pred = y_pred[3]\ny_ninv_pred = y_pred[4]\ny_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_module_pred",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_module_pred = np.argmax(y_pred[0], axis=1)\ny_inverter_pred = np.argmax(y_pred[1], axis=1)\ny_power_pred = y_pred[2]\ny_nmod_pred = y_pred[3]\ny_ninv_pred = y_pred[4]\ny_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_inverter_pred",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_inverter_pred = np.argmax(y_pred[1], axis=1)\ny_power_pred = y_pred[2]\ny_nmod_pred = y_pred[3]\ny_ninv_pred = y_pred[4]\ny_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_power_pred",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_power_pred = y_pred[2]\ny_nmod_pred = y_pred[3]\ny_ninv_pred = y_pred[4]\ny_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y.inverse_transform(y_power_pred)",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_nmod_pred",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_nmod_pred = y_pred[3]\ny_ninv_pred = y_pred[4]\ny_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y.inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y.inverse_transform(y_nmod_pred)",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_ninv_pred",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_ninv_pred = y_pred[4]\ny_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y.inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y.inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y.inverse_transform(y_ninv_pred)",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_total_ipmd_pred",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_total_ipmd_pred = y_pred[5]\ny_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y.inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y.inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y.inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y.inverse_transform(y_total_ipmd_pred)",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_total_ipinv_pred",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_total_ipinv_pred = y_pred[6]\ny_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y.inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y.inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y.inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y.inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y.inverse_transform(y_total_ipinv_pred)",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_ipsys_pred",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_ipsys_pred = y_pred[7]\n# Desnormalization \ny_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y.inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y.inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y.inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y.inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y.inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y.inverse_transform(y_ipsys_pred)",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_module_decoded",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_module_decoded = encoder_module.inverse_transform(y_module_pred)\ny_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y.inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y.inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y.inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y.inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y.inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y.inverse_transform(y_ipsys_pred)\n# Print results\nfor i in range(len(X_new)):",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_inverter_decoded",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_inverter_decoded = encoder_inverter.inverse_transform(y_inverter_pred)\ny_power_decoded = scaler_y.inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y.inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y.inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y.inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y.inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y.inverse_transform(y_ipsys_pred)\n# Print results\nfor i in range(len(X_new)):\n    print(f\"\\nSystem {i+1}\")",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_power_decoded",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_power_decoded = scaler_y.inverse_transform(y_power_pred)\ny_nmod_decoded = scaler_y.inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y.inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y.inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y.inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y.inverse_transform(y_ipsys_pred)\n# Print results\nfor i in range(len(X_new)):\n    print(f\"\\nSystem {i+1}\")\n    print(f\"Module: {y_module_decoded[i]}\")",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_nmod_decoded",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_nmod_decoded = scaler_y.inverse_transform(y_nmod_pred)\ny_ninv_decoded = scaler_y.inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y.inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y.inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y.inverse_transform(y_ipsys_pred)\n# Print results\nfor i in range(len(X_new)):\n    print(f\"\\nSystem {i+1}\")\n    print(f\"Module: {y_module_decoded[i]}\")\n    print(f\"Inverter: {y_inverter_decoded[i]}\")",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_ninv_decoded",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_ninv_decoded = scaler_y.inverse_transform(y_ninv_pred)\ny_total_ipmd_decoded = scaler_y.inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y.inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y.inverse_transform(y_ipsys_pred)\n# Print results\nfor i in range(len(X_new)):\n    print(f\"\\nSystem {i+1}\")\n    print(f\"Module: {y_module_decoded[i]}\")\n    print(f\"Inverter: {y_inverter_decoded[i]}\")\n    print(f\"Power: {y_power_decoded[i][0]:.4f}\")",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_total_ipmd_decoded",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_total_ipmd_decoded = scaler_y.inverse_transform(y_total_ipmd_pred)\ny_total_ipinv_decoded = scaler_y.inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y.inverse_transform(y_ipsys_pred)\n# Print results\nfor i in range(len(X_new)):\n    print(f\"\\nSystem {i+1}\")\n    print(f\"Module: {y_module_decoded[i]}\")\n    print(f\"Inverter: {y_inverter_decoded[i]}\")\n    print(f\"Power: {y_power_decoded[i][0]:.4f}\")\n    print(f\"Number of Modules: {y_nmod_decoded[i][0]:.2f}\")",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_total_ipinv_decoded",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_total_ipinv_decoded = scaler_y.inverse_transform(y_total_ipinv_pred)\ny_ipsys_decoded = scaler_y.inverse_transform(y_ipsys_pred)\n# Print results\nfor i in range(len(X_new)):\n    print(f\"\\nSystem {i+1}\")\n    print(f\"Module: {y_module_decoded[i]}\")\n    print(f\"Inverter: {y_inverter_decoded[i]}\")\n    print(f\"Power: {y_power_decoded[i][0]:.4f}\")\n    print(f\"Number of Modules: {y_nmod_decoded[i][0]:.2f}\")\n    print(f\"Number of Inverters: {y_ninv_decoded[i][0]:.2f}\")",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
-        "label": "y_ipsys_decoded",
-        "kind": 5,
-        "importPath": "trainer.tester",
-        "description": "trainer.tester",
-        "peekOfCode": "y_ipsys_decoded = scaler_y.inverse_transform(y_ipsys_pred)\n# Print results\nfor i in range(len(X_new)):\n    print(f\"\\nSystem {i+1}\")\n    print(f\"Module: {y_module_decoded[i]}\")\n    print(f\"Inverter: {y_inverter_decoded[i]}\")\n    print(f\"Power: {y_power_decoded[i][0]:.4f}\")\n    print(f\"Number of Modules: {y_nmod_decoded[i][0]:.2f}\")\n    print(f\"Number of Inverters: {y_ninv_decoded[i][0]:.2f}\")\n    print(f\"Module Performance Index: {y_total_ipmd_decoded[i][0]:.4f}\")",
-        "detail": "trainer.tester",
-        "documentation": {}
-    },
-    {
         "label": "Console",
         "kind": 6,
         "importPath": "utils.io",
         "description": "utils.io",
-        "peekOfCode": "class Console():\n    @staticmethod\n    def send_error(message):\n        print(Back.RED + Style.BRIGHT + 'ERROR' + Style.RESET_ALL + ' ' + message)\n    @staticmethod\n    def send_info(message):\n        print(Back.MAGENTA + Style.BRIGHT + 'INFO' + Style.RESET_ALL + ' ' + message)\n    @staticmethod\n    def send_warn(message):\n        print(Back.YELLOW + Style.BRIGHT + 'WARN' + Style.RESET_ALL + ' ' + message)",
+        "peekOfCode": "class Console():\n    @staticmethod\n    def send_header(title):\n        print('')\n        print(Back.CYAN + Style.BRIGHT + 'ELEKTRO APOLLARIS' + Style.RESET_ALL)\n        print(Style.RESET_ALL + 'Deep Learning | ' + title)\n        print(Style.DIM + 'Developed by Nicolas Fernandes' + Style.RESET_ALL)\n        print('')\n    @staticmethod\n    def send_error(message):",
         "detail": "utils.io",
         "documentation": {}
     }

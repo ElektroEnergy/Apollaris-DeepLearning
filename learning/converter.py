@@ -3,8 +3,8 @@ import joblib, json
 # Command for converting the model
 # tensorflowjs_converter --input_format keras decisionmaking.keras trainer/web_model/
 
-scaler_x = joblib.load('scaler_x.pkl')
-scalers_y = joblib.load('scalers_y.pkl')
+scaler_x = joblib.load('learning/output/scaler_x.pkl')
+scalers_y = joblib.load('learning/output/scalers_y.pkl')
 
 scalers_data = {
     "x": {"mean": scaler_x.mean_.tolist(), "scale": scaler_x.scale_.tolist()},
@@ -19,9 +19,9 @@ scalers_data = {
 
 with open("learning/output/web_model/scalers.json", "w") as f:
     json.dump(scalers_data, f)
-    
-encoder_module = joblib.load('encoder_module.pkl')
-encoder_inverter = joblib.load('encoder_inverter.pkl')
+
+encoder_module = joblib.load('learning/output/encoder_module.pkl')
+encoder_inverter = joblib.load('learning/output/encoder_inverter.pkl')
 
 encoders_data = {
     "module": encoder_module.classes_.tolist(),
@@ -30,13 +30,3 @@ encoders_data = {
 
 with open("learning/output/web_model/encoders.json", "w") as f:
     json.dump(encoders_data, f)
-    
-import numpy as np
-np.object = object
-np.bool = bool
-
-import tf_keras
-import tensorflowjs as tfjs
-
-model = tf_keras.models.load_model("decisionmaking.h5")
-tfjs.converters.save_keras_model(model, "learning/output/web_model")
