@@ -92,22 +92,22 @@ async function runPrediction() {
     outputInverter.textContent = `${inverter.name}`;
 
     outputPower = document.getElementById("outputPower");
-    outputPower.textContent = `${y_denorm[0].toFixed(3)}W`;
+    outputPower.textContent = `${y_denorm[0].toFixed(2)}W`;
 
     outputNmod = document.getElementById("outputNmod");
-    outputNmod.textContent = `${y_denorm[1].toFixed(3)} Módulos`;
+    outputNmod.textContent = `${y_denorm[1].toFixed(0)} Módulos`;
 
     outputNinv = document.getElementById("outputNinv");
-    outputNinv.textContent = `${y_denorm[2].toFixed(3)} Inversores`;
+    outputNinv.textContent = `${y_denorm[2].toFixed(0)} Inversores`;
 
     outputIpmd = document.getElementById("outputIpmd");
-    outputIpmd.textContent = `${y_denorm[3].toFixed(3)}`;
+    outputIpmd.textContent = `${y_denorm[3].toFixed(6)}`;
 
     outputIpinv = document.getElementById("outputIpinv");
-    outputIpinv.textContent = `${y_denorm[4].toFixed(3)}`;
+    outputIpinv.textContent = `${y_denorm[4].toFixed(6)}`;
 
     outputIpsys = document.getElementById("outputIpsys");
-    outputIpsys.textContent = `${y_denorm[5].toFixed(3)}`;
+    outputIpsys.textContent = `${y_denorm[5].toFixed(6)}`;
 
     // Modules and others
     moduleName = document.getElementById("moduleName");

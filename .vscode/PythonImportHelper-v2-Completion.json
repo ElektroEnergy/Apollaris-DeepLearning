@@ -168,11 +168,36 @@
         "documentation": {}
     },
     {
-        "label": "keras",
-        "importPath": "tensorflow",
-        "description": "tensorflow",
+        "label": "tf_keras",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "tensorflow",
+        "importPath": "tf_keras",
+        "description": "tf_keras",
+        "detail": "tf_keras",
+        "documentation": {}
+    },
+    {
+        "label": "layers",
+        "importPath": "tf_keras",
+        "description": "tf_keras",
+        "isExtraImport": true,
+        "detail": "tf_keras",
+        "documentation": {}
+    },
+    {
+        "label": "Model",
+        "importPath": "tf_keras",
+        "description": "tf_keras",
+        "isExtraImport": true,
+        "detail": "tf_keras",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "tf_keras",
+        "description": "tf_keras",
+        "isExtraImport": true,
+        "detail": "tf_keras",
         "documentation": {}
     },
     {
@@ -214,30 +239,6 @@
         "description": "sklearn.preprocessing",
         "isExtraImport": true,
         "detail": "sklearn.preprocessing",
-        "documentation": {}
-    },
-    {
-        "label": "layers",
-        "importPath": "tf_keras",
-        "description": "tf_keras",
-        "isExtraImport": true,
-        "detail": "tf_keras",
-        "documentation": {}
-    },
-    {
-        "label": "Model",
-        "importPath": "tf_keras",
-        "description": "tf_keras",
-        "isExtraImport": true,
-        "detail": "tf_keras",
-        "documentation": {}
-    },
-    {
-        "label": "Input",
-        "importPath": "tf_keras",
-        "description": "tf_keras",
-        "isExtraImport": true,
-        "detail": "tf_keras",
         "documentation": {}
     },
     {
@@ -470,7 +471,7 @@
         "kind": 5,
         "importPath": "learning.tester",
         "description": "learning.tester",
-        "peekOfCode": "os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'\nimport numpy as np\nimport math\nimport tensorflow as tf\nfrom tensorflow import keras\nimport joblib\nimport json\n# Disable annoying Tensorflow warnings in a production env\ntf.get_logger().setLevel('ERROR')\nfrom utils.io import Console",
+        "peekOfCode": "os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'\nimport numpy as np\nimport math\nimport tensorflow as tf\nimport tf_keras\nimport joblib\nimport json\n# Disable annoying Tensorflow warnings in a production env\ntf.get_logger().setLevel('ERROR')\nfrom utils.io import Console",
         "detail": "learning.tester",
         "documentation": {}
     },
@@ -479,7 +480,7 @@
         "kind": 5,
         "importPath": "learning.tester",
         "description": "learning.tester",
-        "peekOfCode": "model = keras.models.load_model('decisionmaking.keras')\n# Load the scalers and encoders\nscaler_x = joblib.load('scaler_x.pkl')\nscaler_y = joblib.load('scalers_y.pkl')\nencoder_module = joblib.load('encoder_module.pkl')\nencoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],",
+        "peekOfCode": "model = tf_keras.models.load_model('learning/output/decisionmaking.keras')\n# Load the scalers and encoders\nscaler_x = joblib.load('learning/output/scaler_x.pkl')\nscaler_y = joblib.load('learning/output/scalers_y.pkl')\nencoder_module = joblib.load('learning/output/encoder_module.pkl')\nencoder_inverter = joblib.load('learning/output/encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],",
         "detail": "learning.tester",
         "documentation": {}
     },
@@ -488,7 +489,7 @@
         "kind": 5,
         "importPath": "learning.tester",
         "description": "learning.tester",
-        "peekOfCode": "scaler_x = joblib.load('scaler_x.pkl')\nscaler_y = joblib.load('scalers_y.pkl')\nencoder_module = joblib.load('encoder_module.pkl')\nencoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)",
+        "peekOfCode": "scaler_x = joblib.load('learning/output/scaler_x.pkl')\nscaler_y = joblib.load('learning/output/scalers_y.pkl')\nencoder_module = joblib.load('learning/output/encoder_module.pkl')\nencoder_inverter = joblib.load('learning/output/encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)",
         "detail": "learning.tester",
         "documentation": {}
     },
@@ -497,7 +498,7 @@
         "kind": 5,
         "importPath": "learning.tester",
         "description": "learning.tester",
-        "peekOfCode": "scaler_y = joblib.load('scalers_y.pkl')\nencoder_module = joblib.load('encoder_module.pkl')\nencoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)",
+        "peekOfCode": "scaler_y = joblib.load('learning/output/scalers_y.pkl')\nencoder_module = joblib.load('learning/output/encoder_module.pkl')\nencoder_inverter = joblib.load('learning/output/encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)",
         "detail": "learning.tester",
         "documentation": {}
     },
@@ -506,7 +507,7 @@
         "kind": 5,
         "importPath": "learning.tester",
         "description": "learning.tester",
-        "peekOfCode": "encoder_module = joblib.load('encoder_module.pkl')\nencoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)\n# Prediction",
+        "peekOfCode": "encoder_module = joblib.load('learning/output/encoder_module.pkl')\nencoder_inverter = joblib.load('learning/output/encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)\n# Prediction",
         "detail": "learning.tester",
         "documentation": {}
     },
@@ -515,7 +516,7 @@
         "kind": 5,
         "importPath": "learning.tester",
         "description": "learning.tester",
-        "peekOfCode": "encoder_inverter = joblib.load('encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)\n# Prediction\nConsole.send_info(\"Making the prediction\")",
+        "peekOfCode": "encoder_inverter = joblib.load('learning/output/encoder_inverter.pkl')\nConsole.send_success(\"Loaded with sucess! Now generating data for prediction\")\n# Generating test data\nX_new = np.array([\n    [6000, 1000, 30, 5],\n    [30000, 1200, 25, 2],\n], dtype=float)\nX_new_scaled = scaler_x.transform(X_new)\n# Prediction\nConsole.send_info(\"Making the prediction\")",
         "detail": "learning.tester",
         "documentation": {}
     },
