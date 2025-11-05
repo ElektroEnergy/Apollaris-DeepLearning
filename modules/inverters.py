@@ -5,8 +5,8 @@ class Inverter:
         self.pdc = pdc              # DC Power Input (W)
         self.nmmpts = nmmpts        # Number of MPPTs
 
-        self.vmpmax = vmpmax           # Maximum Voltage per MPPT (VmpMax)
-        self.vmpmin = vmpmin           # Minimum Voltage per MPPT (VmpMin)
+        self.vmpmax = vmpmax        # Maximum Voltage per MPPT (VmpMax)
+        self.vmpmin = vmpmin        # Minimum Voltage per MPPT (VmpMin)
         self.imp = imp              # Maximum Current per MPPT (Imp)
 
         self.isc = isc              # Maximum Short-Circuit Current per MPPT (Isc)

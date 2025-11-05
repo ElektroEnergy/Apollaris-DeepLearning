@@ -1,6 +1,7 @@
 from modules.site import Site
 from modules.inverters import Inverter
 from modules.modules import Module
+from modules.topsis import Topsis
 
 from utils.io import Console
 import json
@@ -21,6 +22,7 @@ class System():
     # Decide the best configuration for the system
     def decision_making(self):
         combinations = []
+        criterias = []
 
         for module in self.modules:
             PVModule = Module(module['voc'], module['isc'], module['vmp'], module['imp'], module['pmp'], module['vmax_sys'], module['tcoef_voc'], module['tcoef_vmp'], module['tcoef_isc'], module['weight'], module['depth'], module['width'], module['length'], module['area'], module['icost'], module['ef'], module['ncel'], module['tol'], module['dur'], module['material'], module['tmax'], module['tmin'], module['tnm'], module['tier'], module['max_fuse'], self.site)
@@ -79,6 +81,8 @@ class System():
                     'ipsys': system_perfomance_index
                 }
                 combinations.append(combination)
+                
+                criterias.append([PVModule.nmod, PVInverter.ninv, total_module_perfomance_index, total_inverter_perfomance_index, system_perfomance_index])
 
         # Return the best combination
         if not len(combinations):
@@ -96,7 +100,15 @@ class System():
                     'ipsys': -1
                 }
         else:
-            return max(combinations, key=lambda x: x['ipsys'])
+            topsis = Topsis(
+                criterias,
+                [1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1])
+            
+            return combinations[topsis.decision_making()]
+
+            
+
  
  
  
